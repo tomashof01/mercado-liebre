@@ -3,6 +3,11 @@ const app = express();
 const path = require('path');
 let port = 3000;
 
+let port = process.env.PORT || 3000;
+
+
+
+
 app.use(express.static("public"));
 
 app.get ('/', (req, res)=>{
