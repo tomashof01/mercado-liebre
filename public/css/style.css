@@ -1,0 +1,487 @@
+ /*   header   */
+ *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        }
+
+header{
+        background-color: #EAC926;
+        margin: 0px;
+        }
+.img-logo{
+        width: 200px;
+}
+.logo-header{
+        margin: 0px;
+        }
+.titulo-header{
+        text-align: center;
+        }
+.burger-menu{
+        display: block;
+        margin: auto auto;
+        margin-bottom: 10px;
+        border: 1px solid #03264C;
+        border-radius: 6px;
+        padding: 10px;
+        background-color: #1259c3;
+        color: #ebebeb;
+        max-width: 34px;
+        align-items: center;
+        }
+.imagen-banner{
+        width: 100%;
+        margin-top: 15px;
+        }
+.search{
+        display: flex;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        }
+.input-search{
+        border: none;
+        border-radius: 3px;
+        }
+.btn-search{
+        padding: 2px;
+        border: 1px solid black;
+        margin-left: 10px;
+        border: none;
+        border-radius: 3px;
+}
+.nav-links{
+        display: flex;
+        flex-direction: row;
+}
+.nav-links ul{
+        list-style-type: none;
+}
+.nav-links a{
+        text-decoration: none;
+}
+
+/*   body  */
+
+body{
+        font-family: roboto;
+        background-color: #ebebeb;
+    }
+
+main{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
+.main-section{
+        display: flex;
+        flex-wrap: wrap;
+}
+.producto{
+        background-color: white;
+        margin-bottom: 10px;
+    }
+.detalle-producto{
+        
+        padding: 15px;
+    }
+    .truck{
+        position: relative;
+    }
+.img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid #ebebeb;
+    }
+.titulos{
+        margin: 20px 0px;
+        font-size: 24px;
+        color: #666;
+    }
+.precios{
+        font-size: 22px;
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+    }
+.descuentos{
+        margin-top: 0px;
+        margin-left: 5px;
+        font-size: 20px;
+        color: #39b54a;
+        
+    }
+.precio-descuento{
+        display: flex;
+        flex-direction: row;
+        
+}
+
+.descripcion{
+        font-size: 16px;
+        color: #666;
+    }
+
+.fa-truck{
+        color: #39b54a;
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 10px;
+        top: -30px;
+        
+    }
+    .producto:hover .fa-truck{
+        transition:all 0.5ms ease;
+        transform: rotate(-90deg);
+    }
+
+
+
+/*   footer   */
+
+
+
+.footer {
+        text-align: center;
+        color: #666;
+        }
+.title-footer{
+        text-align: center;
+        margin: 0px;
+        }
+.text-footer{
+        margin: 0%;
+        }
+.article-footer{
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+        }
+.icon-footer{
+        color: #1259c3;
+        align-items: center;
+        font-size: 2em;
+        margin-bottom: 10px;
+        }
+
+
+        /*   media queries    */
+
+
+@media (max-width:360px){
+        .nav-links{
+                display: none;
+        }
+
+
+
+.form-login{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: space-around;
+    }
+    
+.input-login{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 50vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-input-login{
+        background-color: #1259c3;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 50vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ebebeb;
+    }
+
+    .form-register{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: space-around;
+    }
+
+    .inputs-register{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 60vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-fecha{
+        margin-left: 17.5vw;
+    }
+    .radio-register{
+        display: flex;
+        flex-direction: row;
+        margin-left: 17.5vw;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+    .radio-register .rad-reg{
+        margin-left: 5px;
+    }
+    .radio-register p{
+        margin-left: 2vw
+    }
+    .label-register{
+        font-weight: bold;
+        margin: 15;
+        margin-left: 17.5vw;
+        
+    }
+    .main-radio-register{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-cbox-register{
+        display: flex;
+        flex-direction: column;
+    }
+    .checkbox-register{
+        display: flex;
+        margin-left: 17.5vw;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .checkbox-register p{
+        margin-left: 7px;
+    }
+
+}
+
+
+
+@media (min-width:361px){
+        .producto{box-shadow:  0px 0px 10px rgb(100, 100, 100);}
+        .burger-menu{display: none;}
+        .logo-titulo{
+                display: flex;
+                justify-content: space-between;
+        }
+        .titulo-header{
+                max-width: 350px;
+                text-align: right;
+        }
+        .nav-links{
+                display: flex;
+                justify-content: space-between;
+        }
+        .nav-links ul{
+                display: flex;
+        }
+        .nav-links li{
+                margin: 0 5px;
+        }
+        .img-logo{
+                width: 200px;
+        }
+        .logo-titulo, .nav-links{
+                max-width: 769px;
+                margin: auto;
+        }
+        .logo-titulo{
+                align-items: center;
+                
+        }
+        .titulo-header{
+                margin: 0;
+                max-width: none;
+                font-weight: 400;
+                font-size: 17px;
+        }
+        .nav-links{
+                margin-top: 40px;
+        }
+        .nav-links li{
+                margin: 0 10px;
+        }
+        .nav-links a{
+                font-size: 15px;
+        }
+        .producto{
+                flex-basis: 50%;
+                max-width: 48%;
+                margin: auto;
+                margin-bottom: 10px;
+        }
+        
+@media (min-width:769px){
+        
+        .burger-menu{display: none;}
+        .producto{
+                flex-basis: 25%;
+                max-width: 23%;
+                margin: auto;
+        }
+        
+        .nav-links a{
+                font-size: 19px;
+        }
+        .logo-titulo, .nav-links{
+                max-width: 1200px;
+                margin: auto;
+        }
+        .img-logo{
+                width: 250px;
+        }
+        
+        .descripcion{
+                visibility: hidden;
+        }
+        .producto:hover .descripcion{
+                visibility: visible;
+        }
+        .producto:hover .descripcion{
+                visibility: visible;
+        }
+        .footer{
+                display: flex;
+                flex-direction: row;
+        }
+        .producto:hover{
+                box-sizing: border-box;
+                box-shadow: 0px 0px 10px rgb(95, 94, 94);
+                position:relative;
+                
+            
+            }
+        
+}
+
+
+
+
+/*formularios login*/
+
+
+.form-login{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: space-around;
+    }
+    
+.input-login{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 50vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-input-login{
+        background-color: #1259c3;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 50vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ebebeb;
+    }
+    
+
+
+    /*formularios register*/
+
+    .form-register{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: space-around;
+    }
+
+    .inputs-register{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 60vw;
+        padding: 10px;
+        border-radius: 5px;
+        height: 30px;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-fecha{
+        margin-left: 17.5vw;
+    }
+    .radio-register{
+        display: flex;
+        flex-direction: row;
+        margin-left: 17.5vw;
+        margin-top: 15px;
+        margin-bottom: 13px;
+    }
+    .radio-register .rad-reg{
+        margin-left: 5px;
+    }
+    .radio-register p{
+        margin-left: 2vw
+    }
+    .label-register{
+        font-weight: bold;
+        margin: 15;
+        margin-left: 17.5vw;
+        
+    }
+    .main-radio-register{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-cbox-register{
+        display: flex;
+        flex-direction: column;
+    }
+    .checkbox-register{
+        display: flex;
+        margin-left: 17.5vw;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .checkbox-register p{
+        margin-left: 7px;
+    }}
